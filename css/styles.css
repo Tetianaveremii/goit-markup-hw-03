@@ -36,9 +36,9 @@
 
 /* .main */
 
-/* .secsection1 */
+/* .section1 */
 
-section1{
+.section1{
     background: #2F303A;
 }
 
@@ -72,32 +72,41 @@ color: #FFFFFF;
 
     
 /* .filtr */
+/* .button-filtr */
 
-/* .class="button-filtr" {
-    background-color: #188CE8;
-}
-
-class=button-filtr-title":hover .button-main:focus {
-    color: #FFFFFF;
-}
-
-.button-main:active {
-    color: #FFFFFF;
-}
-
-.button-title {
+.button-filtr {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 26px;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.button-filtr:hover,
+.button-filtr:focus {
     color: #FFFFFF;
+    background-color: #2196F3;
 }
 
-.button-title:hover .button-title:focus {
-    color: #2196F3;
+.button-filtr-title1{
+    width: 23px;
+    height: 26px;
 }
-
-.button-title:active {
-    color: #2196F3;
-} */
+.button-filtr-title2 {
+    width: 81px;
+    height: 26px;
+}
+.button-filtr-title3 {
+    width: 68px;
+    height: 26px;
+}
+.button-filtr-title4 {
+    width: 59px;
+    height: 26px;
+}
+.button-filtr-title5 {
+    width: 86px;
+    height: 26px;
+}
