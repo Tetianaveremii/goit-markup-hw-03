@@ -46,16 +46,23 @@ color: #FFFFFF;
 }
 
 .button-main {
-  background-color: #F5F4FA; 
-  width: 216px;
-  height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212121;
+    background-color: #F5F4FA; 
+    width: 216px; 
+    height: 50px;
 }
 .button-main:hover, 
 .button-main:focus {
-    color:#2196F3;
+    color:#FFFFFF;
+    background-color:#2196F3;
 }
 
-.button-main:active {
+/* .button-main:active {
     color:#2196F3;}
 .button-title{
     font-family: 'Roboto';
@@ -73,7 +80,7 @@ color: #FFFFFF;
 
 .button-title:active {
     color: #FFFFFF;
-}
+} */
     
 /* .filtr */
 
