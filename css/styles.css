@@ -83,7 +83,7 @@ color: #FFFFFF;
  color:#FFFFFF;
  background-color:#2196F3;
 }
-/* .section2 */
+/* section2 */
 
 .section2-title{
     font-family: 'Roboto';
@@ -100,7 +100,7 @@ color: #FFFFFF;
     color: #757575;
 }
 
-/* .section3 */
+/* section3 */
 .title2{
     font-family: 'Roboto';
     font-style: normal;
@@ -109,7 +109,7 @@ color: #FFFFFF;
     color: #212121;
 }
 
-/* .section4 */
+/* section4 */
 .section4-title{
     font-family: 'Roboto';
     font-style: normal;
@@ -126,7 +126,7 @@ color: #FFFFFF;
     line-height: 19px;
     color: #757575;
 }
- /* .footer */
+ /* footer */
 
 .adress-list{
     color: #757575;
@@ -154,10 +154,10 @@ color: #757575;
     color: #2196F3;
 }
 
-/* .filtr */
-/* .button-filtr */
+/* filtr */
+/* button-filtr */
 
-.button-filtr {
+.button-filtr-item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -166,8 +166,8 @@ color: #757575;
     color: #212121;
     background-color: #F5F4FA;
 }
-.button-filtr:hover,
-.button-filtr:focus {
+.button-filtr-item:hover,
+.button-filtr-item:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
