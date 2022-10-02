@@ -2,7 +2,9 @@
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
-
+.list{
+    list-style: none;
+}
 /* header */
 .logo {
     font-family: 'Raleway';
@@ -14,9 +16,7 @@
 .logo-studio{
     color:#212121 ;
     }
-.header-nav-list{
-    list-style: none;
-}
+
 .header-nav {
     color: #212121;}
 
