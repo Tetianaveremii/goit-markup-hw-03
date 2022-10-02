@@ -152,6 +152,9 @@ color: #212121;}
     color: #757575;
 }
  /* footer */
+ .footer {
+     background: #2F303A;
+ }
 .adress-list{
     list-style: none;
 }
