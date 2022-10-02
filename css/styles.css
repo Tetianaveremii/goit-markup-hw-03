@@ -51,6 +51,11 @@ color: #FFFFFF;
 
 .button-main {
     background-color: #F5F4FA;
+    width: 216px;
+    height: 50px;
+}
+
+.button-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -58,12 +63,6 @@ color: #FFFFFF;
     line-height: 30px;
     color: #212121;
 }
-/* 
-.button-main{
-
-width: 216px;
-height: 50px;
-} */
 
 .button-main:hover, 
 .button-main:focus {
