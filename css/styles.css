@@ -58,6 +58,8 @@ color: #212121;}
 
 .section1{
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 .title1 {
     font-weight: 900;
@@ -74,6 +76,7 @@ color: #212121;}
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    color: #212121;
     background-color: #F5F4FA;
     cursor: pointer;
 }
