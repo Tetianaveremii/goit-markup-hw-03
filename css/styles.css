@@ -36,11 +36,11 @@ color: #212121;}
  }
 
 .contac-list {
+    list-style: none;
     color: #757575;
  }
 
 .contact-link{
-    list-style: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -71,14 +71,22 @@ color: #212121;}
 }
 
 .button-main {
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+    
+    font-family: 'Roboto'
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    background-color: #F5F4FA;
+
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color: #F5F4FA;
     cursor: pointer;
 }
 
