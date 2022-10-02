@@ -14,9 +14,10 @@
 .logo-studio{
     color:#212121 ;
     }
-
-.header-nav {
+.header-nav-list{
     list-style: none;
+}
+.header-nav {
     color: #212121;}
 
 .header-link {
