@@ -35,9 +35,11 @@
 { color: #2196F3;}
 
 /* .main */
-.section1{
-background: #2F303A;
+
+.title{
+    background: #2F303A;
 }
+
 .title1 {
 font-family: 'Roboto';
 font-style: normal;
