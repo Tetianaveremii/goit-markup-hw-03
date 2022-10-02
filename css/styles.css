@@ -35,7 +35,7 @@ color: #212121;}
     color: #2196F3;
  }
 
-.contac-list {
+.header-nav1 list{
     list-style: none;
     color: #757575;
  }
@@ -49,8 +49,8 @@ color: #212121;}
     color: #757575;
  }
 
-.contact-list .contact-link:hover,
-.contact-list .contact-link:focus {
+.cheader-nav1 list .contact-link:hover,
+.cheader-nav1 list .contact-link:focus {
     color:#2196F3;}
 
 /* main */
