@@ -3,18 +3,16 @@
     color: #212121;;
 }
 
- /* header */
- .logo {
+/* header */
+.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color:#2196F3;
- }
-
-
- .header-link {
+    color:#2196F3;}
+ 
+.header-link {
  font-family: 'Roboto';
  font-style: normal;
  font-weight: 500;
@@ -23,6 +21,53 @@
   color: #212121;
  }
 
- .header-link:hover {
+.header-link:hover 
+.header-link:focus{
     color: #2196F3;
  }
+
+.so.header-link:active
+{ color: #2196F3;}
+/* .main */
+.
+.title1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.button-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-main:hover
+.button-main:focus{
+    color:#188CE8 ;
+}
+.button-main:active {
+    color: #2196F3;
+}
+/* .button-title
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+} */
