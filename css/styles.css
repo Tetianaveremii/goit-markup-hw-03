@@ -9,22 +9,22 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color:#2196F3;}
 .logo-studio{
     color:#212121 ;
     }
 
 .header-nav {
+    list-style: none;
     color: #212121;}
 
 .header-link {
- font-family: 'Roboto';
- font-style: normal;
- font-weight: 500;
- font-size: 14px;
- line-height: 16px;
-  color: #212121;}
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+color: #212121;}
 
 .header-nav .header-link:hover, 
 .header-nav .header-link:focus{
