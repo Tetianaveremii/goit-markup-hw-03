@@ -2,3 +2,15 @@
     font-family: 'Roboto', sans-serif;
     color: #212121;;
 }
+
+ /* header */
+
+ .logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000 #2196F3;
+ }
+ .logo-web 
