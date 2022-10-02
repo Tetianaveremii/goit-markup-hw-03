@@ -14,6 +14,7 @@
 .logo-studio{
     color:#212121 ;
     }
+
 .header-link {
  font-family: 'Roboto';
  font-style: normal;
@@ -22,13 +23,18 @@
  line-height: 16px;
   color: #212121;}
 
-.header-nav .header-link:hover 
-.header-link:focus{
+.header-nav{
+    color: #212121;
+}
+
+.header-nav .header-link:hover, 
+.header-nav .header-link:focus{
     color: #2196F3;
  }
 
 .header-nav .header-link:active
 { color: #2196F3;}
+
 /* .main */
 
 .title1 {
@@ -61,7 +67,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.button-title:hover
+.button-title:hover,
 .button-title:focus{
     color:#2196F3;
 }
