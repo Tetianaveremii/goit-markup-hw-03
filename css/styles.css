@@ -150,6 +150,8 @@ color: #212121;}
 }
 
 .footer-link1 {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,74;
@@ -157,6 +159,8 @@ color: #212121;}
     color: #FFFFFF;
 }
 .footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,74;
