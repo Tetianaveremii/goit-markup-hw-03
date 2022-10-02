@@ -31,12 +31,26 @@
     color: #2196F3;
  }
 
-.header-nav .header-link:active
-{ color: #2196F3;}
+ .header-nav1 {
+     color: #757575;
+ }
 
-/* .main */
+ .header-link1 {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 16px;
+     color: #757575;
+ }
 
-/* .section1 */
+ .header-nav1 .header-link1:hover,
+ .header-nav1 .header-link1:focus {
+     color:#2196F3;}
+
+/* main */
+
+/* section1 */
 
 .section1{
     background: #2F303A;
@@ -69,8 +83,77 @@ color: #FFFFFF;
  color:#FFFFFF;
  background-color:#2196F3;
 }
+/* .section2 */
 
-    
+.section2-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+}
+.text-item2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}
+
+/* .section3 */
+.title2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+/* .section4 */
+.section4-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+.text-item4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+ /* .footer */
+
+.adress-list{
+    color: #757575;
+}
+.footer-link1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #757575;
+}
+
+
+.adress-list .footer-link .footer-link1:hover,
+.adeadress-list .footer-link:focus {
+    color: #2196F3;
+}
+
 /* .filtr */
 /* .button-filtr */
 
@@ -89,23 +172,19 @@ color: #FFFFFF;
     background-color: #2196F3;
 }
 
-/* .button-filtr-title1{
-    width: 23px;
-    height: 26px;
+.project-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
 }
-.button-filtr-title2 {
-    width: 81px;
-    height: 26px;
+
+.project-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
-.button-filtr-title3 {
-    width: 68px;
-    height: 26px;
-}
-.button-filtr-title4 {
-    width: 59px;
-    height: 26px;
-}
-.button-filtr-title5 {
-    width: 86px;
-    height: 26px;
-} */
