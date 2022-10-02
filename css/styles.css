@@ -78,7 +78,13 @@ color: #212121;}
     line-height: 1.87;
     color: #212121;
     background-color: #F5F4FA;
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
     cursor: pointer;
+
 }
 
 
