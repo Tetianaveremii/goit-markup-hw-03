@@ -1,6 +1,6 @@
 .body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;;
+    color: #212121;
 }
 
 /* header */
@@ -11,63 +11,62 @@
     font-size: 26px;
     line-height: 31px;
     color:#2196F3;}
- 
+.logo-studio{
+    color:#212121 ;
+    }
 .header-link {
  font-family: 'Roboto';
  font-style: normal;
  font-weight: 500;
  font-size: 14px;
  line-height: 16px;
-  color: #212121;
- }
+  color: #212121;}
 
-.header-link:hover 
+.header-nav .header-link:hover 
 .header-link:focus{
     color: #2196F3;
  }
 
-.so.header-link:active
+.header-nav .header-link:active
 { color: #2196F3;}
 /* .main */
-.
+
 .title1 {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-text-align: center;
 color: #FFFFFF;
 }
 
 .button-main {
+  background-color: #188CE8; 
+  width: 216px;
+  height: 50px;
+}
+.button-main:hover 
+.button-main:focus {
+    color:#FFFFFF;
+}
+
+.button-main:active {
+    color: #FFFFFF;}
+.button-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
 }
 
-.button-main:hover
-.button-main:focus{
-    color:#188CE8 ;
+.button-title:hover
+.button-title:focus{
+    color:#2196F3;
 }
-.button-main:active {
+
+.button-title:active {
     color: #2196F3;
 }
-/* .button-title
-{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-} */
+    
