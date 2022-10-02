@@ -37,11 +37,11 @@ color: #212121;}
 
 .contac-list {
     list-style: none;
+    text-decoration: none;
     color: #757575;
  }
 
 .contact-link{
-    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -71,13 +71,7 @@ color: #212121;}
     color: #FFFFFF;
 }
 
-.button-main {
-    position: absolute;
-    width: 152px;
-    height: 30px;
-    left: 724px;
-    top: 440px;
-    
+.button-main { 
     font-family: 'Roboto'
     font-weight: 700;
     font-size: 16px;
