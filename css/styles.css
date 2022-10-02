@@ -15,6 +15,10 @@
     color:#212121 ;
     }
 
+.header-nav {
+    text-decoration: none;
+    color: #212121;}
+
 .header-link {
  font-family: 'Roboto';
  font-style: normal;
@@ -22,10 +26,6 @@
  font-size: 14px;
  line-height: 16px;
   color: #212121;}
-
-.header-nav{
-    color: #212121;
-}
 
 .header-nav .header-link:hover, 
 .header-nav .header-link:focus{
@@ -67,7 +67,7 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.button-title:hover,
+.button-title:hover
 .button-title:focus{
     color:#2196F3;
 }
