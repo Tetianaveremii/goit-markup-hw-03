@@ -46,18 +46,50 @@ color: #FFFFFF;
 }
 
 .button-main {
-  background-color: #188CE8; 
+  background-color: #F5F4FA; 
   width: 216px;
   height: 50px;
 }
 .button-main:hover 
 .button-main:focus {
-    color:#FFFFFF;
+    color:#2196F3;
 }
 
 .button-main:active {
-    color: #FFFFFF;}
+    color:#2196F3;}
 .button-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color:#212121;;
+}
+
+.button-title:hover
+.button-title:focus{
+    color:#FFFFFF;
+}
+
+.button-title:active {
+    color: #FFFFFF;
+}
+    
+/* .filtr */
+
+.class="button-filtr" {
+    background-color: #188CE8;
+}
+
+class=button-filtr-title":hover .button-main:focus {
+    color: #FFFFFF;
+}
+
+.button-main:active {
+    color: #FFFFFF;
+}
+
+.button-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -66,12 +98,10 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-.button-title:hover
-.button-title:focus{
-    color:#2196F3;
+.button-title:hover .button-title:focus {
+    color: #2196F3;
 }
 
 .button-title:active {
     color: #2196F3;
 }
-    
