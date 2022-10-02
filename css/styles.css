@@ -10,9 +10,19 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #000000;
+    color:#2196F3;
  }
 
- .logo-web{
-    color:#2196F3;
+
+ .header-link {
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+  color: #212121;
+ }
+
+ .header-link:hover {
+    color: #2196F3;
  }
