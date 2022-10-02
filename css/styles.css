@@ -2,7 +2,10 @@
     font-family: 'Roboto', sans-serif;
     color: #212121;;
 }
+.link {
+    color: #212121;
+}
 
-ul {
-    text-decoration: none;
+.link:hover {
+    color: #2196F3;
 }
