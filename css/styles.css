@@ -1,6 +1,7 @@
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 /* header */
@@ -16,7 +17,7 @@
 .logo-studio{
     color:#212121 ;
     }
-    
+
 .header-nav {
     list-style: none;
     color: #212121;}
