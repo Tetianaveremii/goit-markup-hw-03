@@ -49,6 +49,7 @@ color:var(--text-color);}
 .header-nav .header-link:focus{
     color:var(--hover-color);
  }
+
 .header-nav .header-link:active{
     color:var(--hover-color);
 }
