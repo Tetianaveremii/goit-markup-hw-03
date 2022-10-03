@@ -52,6 +52,10 @@ color:var(--text-color);}
 .header-nav .header-link:active{
     color:var(--hover-color);
 }
+
+.header-nav .header-link:visited {
+    color: var(--hover-color);}
+    
 .contact-list{
     list-style: none;
     color:var(--contact-header-color);
