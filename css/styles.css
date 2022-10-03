@@ -5,15 +5,11 @@
 }
 
 :root {
-    --logo-color:#2196F3;
-    --logo-studio-color-header: #000000;
-    --footer-logo-studio-color: #FFFFFF;
     --text-col0r: #212121;
     --hover-color:#2196F3;
     --contact-header-color: #757575;
     --contact-footer-color:rgba(255, 255, 255, 0.6);
     --button-text-hover-color: #FFFFFF;
-
 }
 
 /* header */
