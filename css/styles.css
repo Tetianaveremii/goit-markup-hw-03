@@ -200,6 +200,9 @@ color: #212121;}
 .project-list{
     list-style: none;
 }
+.project-link{
+    text-decoration: none;
+}
 .project-title {
     font-weight: 500;
     font-size: 16px;
