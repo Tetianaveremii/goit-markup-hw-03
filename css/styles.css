@@ -5,9 +5,12 @@
 }
 
 :root {
-    --text-col0r: #212121;
+    --logo-color:#2196F3;
+    --logo-studio-color:#000000;
+    --footer-logo-studio:#FFFFFF;
+    --text-color: #212121;
     --hover-color:#2196F3;
-    --contact-header-color: #757575;
+    --text-p-color: #757575;
     --contact-footer-color:rgba(255, 255, 255, 0.6);
     --button-text-hover-color: #FFFFFF;
 }
@@ -19,19 +22,19 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color:#2196F3;
+    color:var(--logo-color);
     text-decoration: none;
 }
  .logo-studio{
-    color:#000000 ;
+    color:var(--logo-studio-color) ;
     } 
 
 .footer-logo-studio {
-    color: #FFFFFF;}
+    color:var(--footer-logo-studio);}
 
 .header-nav {
     list-style: none;
-    color: #212121;}
+    color:var(--text-color);}
 
 .header-link {
 text-decoration: none;
@@ -39,18 +42,18 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;}
+color:var(--text-color);}
 
 .header-nav .header-link:hover, 
 .header-nav .header-link:focus{
-    color: #2196F3;
+    color:var(--hover-color);
  }
 .header-nav .header-link:active{
-    color: #2196F3;
+    color:var(--hover-color);
 }
 .contact-list{
     list-style: none;
-    color: #757575;
+    color:var(--contact-header-color);
  }
 
 .contact-link{
@@ -59,14 +62,14 @@ color: #212121;}
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color:var(--text-p-color);
  }
 
 .contact-list .contact-link:hover,
 .contact-list .contact-link:focus {
-    color:#2196F3;}
+    color:var(--hover-color);}
 .contact-list .contact-link:active {
-    color: #2196F3;}
+    color:var(--hover-color);}
 /* main */
 
 /* section1 */
@@ -91,7 +94,7 @@ color: #212121;}
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    color: #FFFFFF;
+    color: var(--button-text-hover-color);
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -108,7 +111,7 @@ color: #212121;}
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color:var(--text-color);
 }
 
 .text-item2 {
@@ -116,7 +119,7 @@ color: #212121;}
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--text-p-color);
 }
 
 /* section3 */
@@ -129,7 +132,7 @@ color: #212121;}
    line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--text-color);
 }
 
 /* section4 */
@@ -142,7 +145,7 @@ color: #212121;}
    line-height: 1.18;
    text-align: center;
    letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--text-color);
 }
 .text-item4{
     font-weight: 400;
@@ -150,7 +153,7 @@ color: #212121;}
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--text-p-color);
 }
  /* footer */
  .footer {
@@ -176,7 +179,7 @@ color: #212121;}
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);}
+    color:var(--contact-footer-color)}
 
 /* filtr */
 /* button-filtr */
@@ -191,15 +194,15 @@ color: #212121;}
     line-height:1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-color);
     background-color: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
 }
 .button-filtr-item:hover,
 .button-filtr-item:focus {
-    color: #FFFFFF;
-    background: #2196F3;
+    color:var(--button-text-hover-color);
+    background:var(--hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -218,7 +221,7 @@ color: #212121;}
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--text-color);
 }
 
 .project-text {
@@ -226,5 +229,5 @@ color: #212121;}
    font-size: 16px;
    line-height: 1.88;
    letter-spacing: 0.03em;
-   color: #757575;
+   color:var(--text-p-color);
 }
