@@ -13,6 +13,7 @@
     --text-p-color: #757575;
     --contact-footer-color:rgba(255, 255, 255, 0.6);
     --button-text-hover-color: #FFFFFF;
+    --background-section-color:#2F303A;
 }
 
 /* header */
@@ -75,7 +76,7 @@ color:var(--text-color);}
 /* section1 */
 
 .section1{
-    background-color: #2F303A;
+    background-color:var(--background-section-color);
     width: 1600px;
     height: 600px;
 }
@@ -86,7 +87,7 @@ color:var(--text-color);}
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--footer-logo-studio);
 }
 
 .button-main { 
@@ -95,7 +96,7 @@ color:var(--text-color);}
     font-size: 16px;
     line-height: 1.87;
     color: var(--button-text-hover-color);
-    background: #2196F3;
+    background:var(--hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     position: absolute;
@@ -115,7 +116,6 @@ color:var(--text-color);}
 }
 
 .text-item2 {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -139,6 +139,11 @@ color:var(--text-color);}
 .section4-list{
         list-style: none;
     }
+.section4-item{
+    background:var(--footer-logo-studio);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;;
+}
 .section4-title{
    font-weight: 500;
    font-size: 16px;
@@ -148,7 +153,6 @@ color:var(--text-color);}
     color:var(--text-color);
 }
 .text-item4{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -157,7 +161,7 @@ color:var(--text-color);}
 }
  /* footer */
  .footer {
-     background: #2F303A;
+     background: var(--background-section-color);
  }
 .adress-list{
     list-style: none;
@@ -170,7 +174,7 @@ color:var(--text-color);}
     font-size: 14px;
     line-height: 1.74;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color:var(--footer-logo-studio);
 }
 .footer-link {
     font-family: 'Roboto';
@@ -187,7 +191,7 @@ color:var(--text-color);}
     list-style: none;
 }
 .button-filtr-item {
-    font-family: 'Roboto';
+    font-family: 'inherit', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -225,7 +229,6 @@ color:var(--text-color);}
 }
 
 .project-text {
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.88;
    letter-spacing: 0.03em;
