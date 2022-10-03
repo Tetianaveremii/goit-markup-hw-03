@@ -4,6 +4,17 @@
     background-color: #FFFFFF;
 }
 
+:root {
+    --logo-color:#2196F3, #000000;
+    --logo-color-footer: #2196F3, #FFFFFF;
+    --text-col0r: #212121;
+    --hover-color:#2196F3;
+    --contact-header-color: #757575;
+    --contact-footer-color:rgba(255, 255, 255, 0.6);
+    --button-text-hover-color: #FFFFFF;
+
+}
+
 /* header */
 .logo {
     font-family: 'Raleway';
@@ -11,12 +22,12 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color:#2196F3;
+    color: var(--logo-color)
     text-decoration: none;
 }
-.logo-studio{
+/* .logo-studio{
     color:#000000 ;
-    }
+    } */
 .footer-logo-studio {
     color: #FFFFFF;}
 
