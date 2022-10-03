@@ -16,7 +16,7 @@
 .logo-studio{
     color:#212121 ;
     }
-
+    
 .header-nav {
     list-style: none;
     color: #212121;}
@@ -154,7 +154,9 @@ color: #212121;}
 .adress-list{
     list-style: none;
 }
-
+.footer-logo-studio{
+    color: #FFFFFF;
+}
 .footer-link1 {
     font-family: 'Roboto';
     font-style: normal;
