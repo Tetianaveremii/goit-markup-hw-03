@@ -5,8 +5,9 @@
 }
 
 :root {
-    --logo-color:#2196F3, #000000;
-    --logo-color-footer: #2196F3, #FFFFFF;
+    --logo-color:#2196F3;
+    --logo-studio-color-footer: #FFFFFF;
+    --logo-studio-color-header: #000000;
     --text-col0r: #212121;
     --hover-color:#2196F3;
     --contact-header-color: #757575;
@@ -22,12 +23,12 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--logo-color)
+    color:#2196F3;
     text-decoration: none;
 }
-/* .logo-studio{
+ .logo-studio{
     color:#000000 ;
-    } */
+    } 
 .footer-logo-studio {
     color: #FFFFFF;}
 
