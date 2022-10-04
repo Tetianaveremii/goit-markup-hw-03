@@ -203,8 +203,8 @@ color:var(--text-color);}
     line-height: 1.74;
     letter-spacing: 0.03em;
     color:var(--contact-footer-color)}
-.adress-list:hover,
-.adress-list:focus{
+.footer-link .footer-link1:hover,
+.footer-link .footer-link1:focus{
     color: var(--hover-color);}
 
 /* filtr */
