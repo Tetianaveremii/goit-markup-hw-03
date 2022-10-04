@@ -14,9 +14,16 @@
     --contact-footer-color:rgba(255, 255, 255, 0.6);
     --button-text-hover-color: #FFFFFF;
     --background-section-color:#2F303A;
+    --background-header-color: #FFFFFF;
+    --background-section2-color: #F5F5F5;
+    ----background-section-comand-color:#F5F4FA;
+
 }
 
 /* header */
+.header{
+    background-color: var(--background-header-color);
+}
 .logo {
     font-family: 'Raleway';
     font-style: normal;
@@ -105,6 +112,9 @@ color:var(--text-color);}
     cursor: pointer;
 }
 /* section2 */
+.section2{
+    background-color:var(--background-section2-color);
+}
 .section2-list{
     list-style: none;
 }
@@ -125,6 +135,9 @@ color:var(--text-color);}
 }
 
 /* section3 */
+.section3{
+    background-color: var(--background-section2-color);
+}
 .section3-list {
     list-style: none;}
 
@@ -138,6 +151,9 @@ color:var(--text-color);}
 }
 
 /* section4 */
+.section4{
+    background-color: var(----background-section-comand-color);
+}
 .section4-list{
         list-style: none;
     }
@@ -216,6 +232,9 @@ color:var(--text-color);}
 }
 
 /* project */
+.project{
+    background-color: var(--background-section2-color);
+}
 
 .project-list{
     list-style: none;
