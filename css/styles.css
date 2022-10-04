@@ -203,10 +203,10 @@ color:var(--text-color);}
     line-height: 1.74;
     letter-spacing: 0.03em;
     color:var(--contact-footer-color)}
-
 .footer-link1 .footer-link:hover,
-.footer-link1 .footer-link:focus {
+.footer-link1 .footer-link:focus{
     color: var(--hover-color);}
+
 /* filtr */
 /* button-filtr */
 .button-filtr-list{
