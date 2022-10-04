@@ -57,13 +57,7 @@ color:var(--text-color);}
     color:var(--hover-color);
  }
 
-.header-nav .header-link:active{
-    color:var(--hover-color);
-}
 .current{
-    color: var(--hover-color);
-}
-.header-linklinkcurrent1{
     color: var(--hover-color);
 }
 
@@ -83,8 +77,6 @@ color:var(--text-color);}
 
 .contact-list .contact-link:hover,
 .contact-list .contact-link:focus {
-    color:var(--hover-color);}
-.contact-list .contact-link:active {
     color:var(--hover-color);}
 /* main */
 
