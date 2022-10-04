@@ -63,6 +63,9 @@ color:var(--text-color);}
 .current{
     color: var(--hover-color);
 }
+.header-linklinkcurrent1{
+    color: var(--hover-color);
+}
 
 .contact-list{
     list-style: none;
