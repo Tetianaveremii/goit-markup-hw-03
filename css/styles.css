@@ -196,10 +196,6 @@ color:var(--text-color);}
     letter-spacing: 0.03em;
     color:var(--footer-logo-studio);
 }
-.adress-list .footer-link1:hover,
-.adress-list .footer-link1:focus {
-    color: var(--hover-color);
-}
 .footer-link {
     text-decoration: none;
     font-style: normal;
@@ -207,8 +203,9 @@ color:var(--text-color);}
     line-height: 1.74;
     letter-spacing: 0.03em;
     color:var(--contact-footer-color)}
-.adress-list .footer-link :hover,
-.adress-list .footer-link :focus{
+    
+.adress-list.link :hover,
+.adress-list.link :focus{
     color: var(--hover-color);}
 
 /* filtr */
