@@ -85,7 +85,6 @@ color:var(--text-color);}
 
 .section-main {
     background-color:var(--background-section-color);
-    width: 1600px;
 }
 .title-section-main {
     font-weight: 900;
@@ -213,7 +212,7 @@ color:var(--text-color);}
     list-style: none;
 }
 .button-filtr-item {
-    font-family: 'inherit';
+    font-family:'inherit';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
