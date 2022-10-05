@@ -13,6 +13,7 @@
     --text-p-color: #757575;
     --contact-footer-color:rgba(255, 255, 255, 0.6);
     --button-text-hover-color: #FFFFFF;
+    --button-main-hover: #188CEB;
     --background-section-color:#2F303A;
     --background-header-color: #FFFFFF;
     --background-section2-color: #F5F5F5;
@@ -85,7 +86,6 @@ color:var(--text-color);}
 .section1{
     background-color:var(--background-section-color);
     width: 1600px;
-    height: 600px;
 }
 .title1 {
     font-weight: 900;
@@ -98,7 +98,7 @@ color:var(--text-color);}
 }
 
 .button-main { 
-    font-family: 'inherit',sans-serif;
+    font-family: 'inherit';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -106,18 +106,14 @@ color:var(--text-color);}
     background:var(--hover-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    position: absolute;
     cursor: pointer;
 }
 .button-main:hover,
 .button-main:focus {
-    color: var(--text-color);
-    background-color: var(--background-section-comand-color);
+    background-color:var(--button-main-hover);
 }
 /* section2 */
-.section2{
-    background-color:var(--background-section2-color);
-}
+.section2
 .section2-list{
     list-style: none;
 }
@@ -139,7 +135,6 @@ color:var(--text-color);}
 
 /* section3 */
 .section3{
-    background-color: var(--background-section2-color);
 }
 .section3-list {
     list-style: none;}
@@ -192,7 +187,7 @@ color:var(--text-color);}
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
-    line-height: 1.74;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--footer-logo-studio);
 }
@@ -204,7 +199,7 @@ color:var(--text-color);}
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
-    line-height: 1.74;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--contact-footer-color)}
 
@@ -240,7 +235,6 @@ color:var(--text-color);}
 
 /* project */
 .project{
-    background-color: var(--background-section2-color);
 }
 
 .project-list{
@@ -266,7 +260,7 @@ color:var(--text-color);}
 }
 .visually-hidden{
     position: absolute;
-    white-space: nowpar;
+    white-space: nowrap;
     width: 1px;
     height: 1px;
     overflow: hidden;
