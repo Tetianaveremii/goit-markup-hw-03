@@ -64,7 +64,9 @@ color:var(--text-color);}
 .current{
     color: var(--hover-color);
 }
-
+.contact-list{
+    display: flex;
+}
 .contact-list{
     list-style: none;
     color:var(--contact-header-color);
@@ -118,6 +120,9 @@ color:var(--text-color);}
 /* section-benefits */
 .section-benefits
 .section-benefits-list{
+    display: flex;
+}
+.section-benefits-list{
     list-style: none;
 }
 .section-benefits-title{
@@ -139,6 +144,9 @@ color:var(--text-color);}
 /* section-specialization */
 .section-specialization{
 }
+.section-specialization-list{
+    display: flex;
+}
 .section-specialization-list {
     list-style: none;}
 
@@ -154,6 +162,9 @@ color:var(--text-color);}
 /* section-team */
 .section-team{
     background-color: var(--background-section-comand-color);
+}
+..section-team-list{
+    display: flex;
 }
 .section-team-list{
         list-style: none;
@@ -213,6 +224,7 @@ color:var(--text-color);}
 
 /* filtr */
 /* button-filtr */
+.button-filtr-list{display: flex;}
 .button-filtr-list{
     list-style: none;
 }
@@ -240,7 +252,9 @@ color:var(--text-color);}
 /* project */
 .project{
 }
-
+.project-list{
+    display: flex;
+}
 .project-list{
     list-style: none;
 }
