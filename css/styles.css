@@ -41,6 +41,9 @@
 .footer-logo-studio {
     color:var(--footer-logo-studio);}
 
+.header-nav{
+    display: flex;
+}
 .header-nav {
     list-style: none;
     color:var(--text-color);}
