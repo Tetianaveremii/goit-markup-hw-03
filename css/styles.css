@@ -33,6 +33,12 @@ address[
     color: var(--text-color);
     background-color: var(--background-header-color);
 }
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 /* header */
 .header{
     background-color: var(--background-header-color);
