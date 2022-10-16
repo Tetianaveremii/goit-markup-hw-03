@@ -41,6 +41,7 @@ address[
 }
 /* header */
 .header{
+    padding-top: 32px;
     background-color: var(--background-header-color);
 }
 .logo {
