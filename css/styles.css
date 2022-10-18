@@ -300,6 +300,7 @@ color:var(--text-color);}
     margin-bottom: 94px;
 }
 .project-list{
+    flex-wrap: nowrap;
     display: flex;
 }
 .project-list{
