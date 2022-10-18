@@ -301,6 +301,8 @@ color:var(--text-color);}
 }
 .project-list{
     flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
     display: flex;
 }
 .project-list{
