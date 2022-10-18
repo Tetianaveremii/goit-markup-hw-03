@@ -77,6 +77,7 @@ address[
     color:var(--footer-logo-studio);}
 
 .header-nav{
+    gap: 50px;
     display: flex;
 }
 .header-nav {
@@ -101,7 +102,9 @@ color:var(--text-color);}
 }
 .contact-list{
     display: flex;
-    margin-left: auto;
+    margin-left: 344px;
+    margin-right: 215px;
+    gap: 50px;
 }
 .contact-list{
     list-style: none;
