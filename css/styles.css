@@ -40,8 +40,8 @@ address[
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
+
 /* header */
 .header{
     padding-top: 32px;
@@ -55,6 +55,10 @@ address[
 .header-navigation{
     display: flex;
     align-items: center;
+}
+.logo{
+    margin-right: 215px;
+    margin-left: 93px;
 }
 .logo {
     font-family: 'Raleway';
